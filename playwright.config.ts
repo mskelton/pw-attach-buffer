@@ -1,6 +1,4 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
-const config: PlaywrightTestConfig = {
-  reporter: "line",
-};
+const config: PlaywrightTestConfig = {};
 
 export default config;
